@@ -11,7 +11,7 @@ export function Footer() {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-4 md:mb-0">
             <Link href="/" className="text-xl font-bold text-amber-600">
-              Dd Portafolio
+              Diseños Duran
             </Link>
             <p className="text-gray-600 text-sm mt-2">
              Transforma tu negocio con soluciones digitales
@@ -91,7 +91,7 @@ export function Footer() {
         </div>
         <div className="mt-8 border-t border-gray-200 pt-6 text-center">
           <p className="text-gray-500 text-sm">
-            © {currentYear} Dd Portafolio. Derechos reservados.
+            © {currentYear} Diseños Duran. Derechos reservados.
           </p>
         </div>
       </div>

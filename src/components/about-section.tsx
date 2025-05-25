@@ -108,10 +108,9 @@ export default function AboutSection() {
     <section className="py-20">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">Sobre Dd Portafolio </h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">Sobre Diseños Duran </h2>
           <p className="text-gray-600 max-w-3xl mx-auto">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Nosotros como agencia de soluciones digitales, nos enfocamos en brindar servicios de software, diseño web y marketing digital a nuestros clientes. 
           </p>
         </div>
 
@@ -140,8 +139,7 @@ export default function AboutSection() {
           <div className="lg:w-1/2 lg:pl-8">
             <h3 className="text-2xl font-bold mb-4">Nuestra Misión</h3>
             <p className="text-gray-600 mb-6">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Somos una agencia de soluciones digitales que se especializa en el desarrollo de software, diseño web y marketing digital. Nuestra misión es ayudar a nuestros clientes a crecer y prosperar en el mundo digital, ofreciendo soluciones innovadoras y personalizadas que cumplen con sus necesidades y objetivos.
             </p>
             <div className="grid grid-cols-2 gap-4">
               <div className="bg-amber-100 p-4 rounded-lg">

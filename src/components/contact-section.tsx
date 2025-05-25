@@ -43,14 +43,14 @@ export default function ContactSection() {
     <section id="contact" className="py-20">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">Comunicate con nosotros</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">Contáctanos</h2>
         </div>
 
         <div className="max-w-2xl mx-auto">
-          <Card className="p-6 shadow-xl">
+          <Card className="p-6 shadow-xl bg-gray-50">
             {submitSuccess ? (
               <div className="bg-green-50 text-green-700 p-4 rounded-lg text-center mb-4">
-                Your message has been sent successfully! We'll get back to you soon.
+                Tu mensaje ha sido enviado exitosamente! Te contactaremos pronto.
               </div>
             ) : null}
 

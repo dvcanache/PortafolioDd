@@ -19,11 +19,13 @@ export function Navbar() {
   };
 
   return (
-    <nav className="bg-white py-4 sticky top-0 z-10 shadow-md">
+    <nav className="bg-white py-4 sticky top-0 z-500 shadow-md">
       <div className="container mx-auto px-4 flex justify-between items-center">
-        <Link href="/" className="text-xl font-bold text-black">
-          Dd portfolio
+        <Link href="/" className="flex items-center gap-2">
+          <img src="/disenosduran.svg" alt="Diseños Duran Logo" className="h-8 w-auto" />
+          <span className="text-xl font-bold text-black">Diseños Duran</span>
         </Link>
+
         <div className="hidden md:flex space-x-8">
           {navLinks.map((link) => (
             <Link

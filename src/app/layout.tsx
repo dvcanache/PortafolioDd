@@ -7,8 +7,18 @@ import { Footer } from "@/components/footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Dd Portafolio - Agencia de Soluciones Digitales",
+  title: "Diseños Duran - Agencia de Soluciones Digitales",
   description: "Transforma tu negocio con soluciones de software innovadoras personalizadas para tus necesidades",
+  icons: {
+    icon: [
+      { url: "/favicon.ico" },
+      { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
+      { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+    ],
+    apple: [
+      { url: "/apple-touch-icon.png" },
+    ],
+  },
 };
 
 export default function RootLayout({
