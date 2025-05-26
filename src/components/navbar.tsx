@@ -19,7 +19,7 @@ export function Navbar() {
   };
 
   return (
-    <nav className="bg-white py-4 sticky top-0 z-500 shadow-md">
+    <nav className="bg-white py-4 sticky top-0 z-[9999] shadow-md">
       <div className="container mx-auto px-4 flex justify-between items-center">
         <Link href="/" className="flex items-center gap-2">
           <img src="/disenosduran.svg" alt="Diseños Duran Logo" className="h-8 w-auto" />
